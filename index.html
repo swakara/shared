@@ -1,6 +1,21 @@
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="abapPxa" data-user="swakara" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/swakara/pen/abapPxa">
-  Print Profit Calculator (JBZG remix)</a> by Swakara (<a href="https://codepen.io/swakara">@swakara</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+<div style="padding-left:20px ; padding-top:20px">
+<h4> Enter your retail price £ <input id="saleprice">
+  </input></h4>
+<h4> Commission Fee (25%) - £
+  <span id="showfeesTH" style = "color:red"> 
+  </span><br>
+Card Handling Fee (3%) - £
+  <span id="showfeesPP" style = "color:red"> 
+  </span><br>
+<h4> Print base price - £ <input id="cost">
+  </input></h4>
+<button id="calculate" onclick = "calc()">
+  Calculate
+</button>
+<div style="border-style: none; margin-top: 20px;  width: 300px">
+<h2 style = "padding-left: 0px; padding-top: 20px;"> 💰 You'd receive £
+ <span id="profit" style = "color:green"> 
+  </span>
+</h2>
+</div>
+</div>
